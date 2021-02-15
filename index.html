@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J&C</title>
+
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mq.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <!-- Menú de navegación -->
+            <nav class="navbar navbar-expand-lg navbar-light colorNav">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-md-end" id="navbarTogglerDemo01">
+                        <h3>J&C Bookstore</h3>
+                        <ul class="list navbar-nav me-auto mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Iniciar Sesión</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Registrarse</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="row main">
+            <article class="container col-sm-3 art">
+                <h2 class="titulo">CINCO SEMANAS EN GLOBO</h2>
+                <figure class="imgLibro card">
+                    <img src="./imagenes/libro.jpg" class="card-img-top img-responsive" alt="Responsive image">
+                </figure>
+            </article>
+            <article class="container col-sm-6 art2">
+                <p class="resumen">
+                    El doctor Samuel Fergusson, sabio y explorador inglés, acompañado por su criado Joe y por su amigo Dick Kennedy, decide atravesar el continente africano, que hasta ese momento solo era conocido de modo fragmentario, usando un globo hinchado con hidrógeno. Un dispositivo de su invención, que permite subir o bajar a voluntad sin perder gas o echar lastre en busca de corrientes favorables, convierte al globo en un aparato dirigido.
+                    La idea de este viaje es unir las exploraciones realizadas por Burton y Speke en el África Oriental con las de Heinrich Barth en las regiones del Sahara y el Chad, y hallar las fuentes del Nilo.
+                    Los tres aeronautas parten de la isla de Zanzíbar en el globo Victoria y recorren durante cinco semanas los Montes de la Luna (donde sucede la aventura del elefante remolcador), el lago Victoria (que reconocen como la fuente del Nilo), el Nilo, los montes Auríferos (donde suceden las aventuras del misionero, de la codicia y de la sed), el lago Chad (donde el globo es deshecho y Joe se pierde), el desierto del Sahara (el huracán), el río Níger (donde el nuevo Victoria comienza a fallar), las cercanías del río Senegal (donde ocurre el ataque de los talibas) hasta las cataratas de Güina en el río Senegal, antes de volver a Inglaterra, donde son recibidos con entusiasmo y ganan la medalla de oro por la mejor aventura del año 1862.
+                </p>
+                <label class="valorUni">Valor Unitario $ 45.000,00</label>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label class="cantidad">Cantidad</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input class="form-group inp" type="number" value="1">
+                    </div>
+                </div>
+                <hr>
+                <div class="row total">
+                    <div class="col-sm">
+                        <label class="valor">Total $ 45.000,00</label>
+                    </div>
+                    <div class="col-sm">
+                        <button type="button" class="float-right btn-sm btn-primary">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"> Añadir al carrito</i>
+                        </button>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
