@@ -23,15 +23,13 @@
         padding: 0 10px;
         overflow: hidden;
     }
-    
-    .col-sm-2, .col-sm-3, input[type=submit] {
-        width: 100%;
-        margin-top: 0;
-    }
 
+    .col-sm{
+        width: 50%;
+    }
 }
 /* Estilos smartphones - portátiles - tablets */
-@media all and (  min-width: 500px ) and ( max-width: 1023px ){
+@media all and (  min-width: 300px ) and ( max-width: 1023px ){
     nav {
         width: 100%;
     }
@@ -56,9 +54,4 @@
         overflow: hidden;
     }
 
-    .form-group {
-        display: flex;
-        flex-flow: row wrap;
-        
-      }
 }

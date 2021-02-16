@@ -15,8 +15,8 @@ h4{
 }
 
 .resumen{
-    font-size: small;
-    margin-top: 15%;
+    font-size: medium;
+    margin-top: 10%;
     margin-bottom: 15%;
 }
 
@@ -34,14 +34,23 @@ h4{
     margin-bottom: 3%;
 }
 
+.col-sm-2{
+    width: auto !important;
+}
+
+.col-sm-3{
+    width: auto !important;
+}
+
 .btn-sm{
     float: right;
 }
 
-.container.art{
-    margin-right: 0 !important;
-}
 
 .container.art2{
     margin-left: 0 !important;
+}
+
+.lab{
+    width: auto !important;
 }
